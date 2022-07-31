@@ -1,5 +1,4 @@
 from typing import Dict, List
-from requests import head
 from selenium.webdriver.chrome.webdriver import WebDriver as ChromeDriver
 from selenium.webdriver.remote.webelement import WebElement
 
