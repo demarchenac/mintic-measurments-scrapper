@@ -100,14 +100,16 @@ def download_docs(driver: ChromeDriver, documents: List[Dict[str, str]]):
 
 
 def main():
-    print('00. Setup donwload folder')
+    print('Start!')
+    print('  00. Setup donwload folder')
     donwload_folder = folder_setup()
-    print('01. Init selenium chrome driver')
+    print('  01. Init selenium chrome driver')
     driver = init_driver(donwload_folder, headless=True)
-    print('02. Browse documents')
+    print('  02. Browse documents')
     documents = get_docs_info(driver)
-    print('03. Download documents')
+    print('  03. Download documents')
     download_docs(driver, documents)
+    print('All documents have been downloaded!')
     driver.quit()
 
 
