@@ -1,1 +1,1 @@
-# py-scrapper-template
+# MinTIC "Mediciones" Scrapper
