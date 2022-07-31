@@ -6,7 +6,6 @@ from selenium.webdriver.remote.webelement import WebElement
 import re
 import time
 import shutil
-import logging
 
 from pathlib import Path
 from selenium import webdriver
