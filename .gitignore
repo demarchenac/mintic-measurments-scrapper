@@ -1,5 +1,5 @@
 .Venv/
-src/__pyache__
+downloads/
+src/__pycache__
 src/input/
 src/output/
-downloads/
